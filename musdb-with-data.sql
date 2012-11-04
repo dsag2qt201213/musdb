@@ -67,7 +67,7 @@ CREATE TABLE `users` (
   `email` varchar(32) NOT NULL,
   PRIMARY KEY (`userid`),
   UNIQUE KEY `username` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -76,7 +76,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'alicia','^ğ%ëP;üâoæsMQt«ó¹¦¢',NULL,NULL,'alicia@foo.com'),(2,'blas','~ğ>ä€\n†Mf\Zş‹ºìÜÎ\"¸â«',NULL,NULL,'blas@foo.com'),(3,'carlos','«^+Ê„“1»ÉÔúÌÎ;¬Nëd',NULL,NULL,'carlos@foo.com'),(4,'david','ªt:\n®È÷×¡ğBP9Wô×¢Ö4',NULL,NULL,'david@foo.com'),(5,'eva','=¡¾ÿõµÇ^.™”û#BÁŸ¬j',NULL,NULL,'eva@foo.com'),(6,'alicia2','¶ì×òÛšëN>9º\np×_Tw«','null','null','alicia2@foo.com');
+INSERT INTO `users` VALUES (1,'alicia','^ğ%ëP;üâoæsMQt«ó¹¦¢',NULL,NULL,'alicia@foo.com'),(2,'blas','~ğ>ä€\n†Mf\Zş‹ºìÜÎ\"¸â«',NULL,NULL,'blas@foo.com'),(3,'carlos','«^+Ê„“1»ÉÔúÌÎ;¬Nëd',NULL,NULL,'carlos@foo.com'),(4,'david','ªt:\n®È÷×¡ğBP9Wô×¢Ö4',NULL,NULL,'david@foo.com'),(5,'eva','=¡¾ÿõµÇ^.™”û#BÁŸ¬j',NULL,NULL,'eva@foo.com'),(6,'alicia2','¶ì×òÛšëN>9º\np×_Tw«','null','null','alicia2@foo.com'),(7,'alicante','ÑúWÚ0A-l:YäòŠÃ‘¦','','','alicante@foo.com'),(8,'alibaba','@ÅƒÚ…ãH1å=0cñcï˜^»','','','alibaba@foo.com'),(9,'test12','øØ<òL«ç$û\'{‘©BgsœB','nombre','','pericopalotes');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -89,4 +89,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-10-24  5:52:10
+-- Dump completed on 2012-11-04 20:12:34
